@@ -1,0 +1,43 @@
+body{
+  background-color: #3f3f3f;
+}
+#container{
+  display: flex;
+  flex-direction: row;
+}
+.test{
+width: 50%;
+display: flex;
+flex-direction: column;
+}
+.counter{
+  margin: 5px 5px; 
+  margin-bottom: 10px;
+}
+label{
+  display: inline-block;
+  color: #fff; 
+  font-size: 20px; 
+  width: 150px; 
+}
+input{
+  text-align: center;
+  font-size: 30px;
+  width: 60px; 
+  height: 60px; 
+}
+button.btn{
+
+  background: none;
+  border: none;
+  margin: 0 7px;
+  font-size: 35px; 
+}
+.test span{
+  font-size: 25px;
+}
+.mana {
+  display: inline;
+  font-size: 25px;
+  color: #f3f3f3;
+}
